@@ -50,7 +50,55 @@ const numberFilter20 = numbers
 
 console.log(numberFilter20);
 
-// const divisibleBy5MultiplyBy3 = numbers.fillnumbers
-//   .filter((numbers) => numbers % 5 === 0)
-//   .map((numbers) => numbers * 3);
-// console.log(divisibleBy5MultiplyBy3);
+const divisibleBy5MultiplyBy3 = numbers.fill
+  .filter((numbers) => numbers % 5 === 0)
+  .map((numbers) => numbers * 3);
+console.log(divisibleBy5MultiplyBy3);
+// test
+//🌶️🌶️🌶️ Extra not required
+
+/*****************************************************************
+Part 4: Extra not required 🌶️🌶️🌶️
+******************************************************************/
+/*************************************
+ * logger(array)
+ *
+ * - Accepts an array
+ * - Logs every element of the array
+ ************************************/
+
+/*************************************
+ * toCelsius(temperatures)
+ *
+ * - Accepts an array of temperatures
+ *   in degrees Fahrenheit
+ * - Returns an array of temperatures
+ *   in degrees Celsius
+ *
+ * The conversion is:
+ *   C = (F - 32) * (5/9)
+ ************************************/
+
+/**************************************
+ * hottestDays(temperatures, threshhold)
+ *
+ * - Accepts an array of temperatures
+ * - Accepts a threshhold temperature
+ * - Returns an array of temperatures
+ *   that exceed the threshhold
+ ***************************************/
+
+/******************************************
+ * logHottestDays(temperatures, threshhold)
+ *
+ * - Accepts an array of temperatures
+ *   IN DEGREES FAHRENHEINT
+ * - Accepts a threshhold temperature
+ *   IN DEGREES FAHRENHEINT
+ * - Logs temperatures that exceed the
+ *   threshhold to the console
+ *   IN DEGREES CELSIUS
+ *
+ * hint: you can combine
+ *       all previous functions
+ *******************************************/
