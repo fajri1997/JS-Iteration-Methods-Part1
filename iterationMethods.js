@@ -50,10 +50,11 @@ const numberFilter20 = numbers
 
 console.log(numberFilter20);
 
-const divisibleBy5MultiplyBy3 = numbers.fill
-  .filter((numbers) => numbers % 5 === 0)
+const divisibleBy5MultiplyBy3 = numbers
+  .filter((number) => number % 5 === 0)
   .map((numbers) => numbers * 3);
 console.log(divisibleBy5MultiplyBy3);
+
 // test
 //🌶️🌶️🌶️ Extra not required
 
